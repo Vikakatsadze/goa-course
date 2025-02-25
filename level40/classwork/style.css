@@ -1,0 +1,19 @@
+p{
+    font-size: 30px;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.goa{
+    color: greenyellow;
+    font-size: 60px;
+    text-shadow: 10px 10px 20px cyan;
+}

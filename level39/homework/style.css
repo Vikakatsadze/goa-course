@@ -1,0 +1,52 @@
+.hello{
+    color: black;
+    text-align: right;
+    padding-right: 90px;
+    text-decoration: dotted underline blue;
+}
+.world{
+    color: black;
+    text-align: center;
+    text-decoration: line-through black;
+}
+.goal{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+.oriented{
+    color: black;
+    text-align: right;
+    padding-right: 90px;
+    text-decoration: dotted line-through blue;
+}
+.academy{
+    color: black;
+    text-align: left;
+    padding-left: 30px;
+    text-decoration: line-through;
+}
+.is{
+    color: black;
+    text-align: left;
+    padding-left: 90px;
+    text-decoration: overline;
+}
+.the{
+    color:greenyellow;
+    text-align: right;
+    padding-right: 90px;
+    text-decoration: overline;
+}
+.best{
+    color: gray;
+    text-align: center;
+    text-decoration: overline;
+
+}
+.one{
+    color: black ;
+    text-align: right;
+    padding-right: 90px;
+    text-decoration: dotted underline green;
+}

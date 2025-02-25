@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shafarik&display=swap');
+
+.p1{
+    font-size: 69px;
+    font-family: "Noto Sans JP", serif;
+}
+.p2{
+    font-size: 69px;
+    font-family: "Roboto", serif;
+}
+.p3{
+    font-size: 69px;
+    font-family: "Shafarik", serif;
+}
+.p4{
+    font-size: 69px;
+    font-family: "Noto Sans Hanunoo", serif;
+}
