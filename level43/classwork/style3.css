@@ -1,0 +1,20 @@
+input[type="text"]{
+    border: 2px;
+    border-radius: 2px;
+    border-bottom: 1px dotted darkblue;
+    outline: none;
+}
+input[type="password"]{
+    border: 1px;
+    border-bottom: 1px double red;
+    border-radius: 4px;
+    border-color: brown;
+    border-style: double;
+    outline: none;
+}
+input[type="email"]{
+    border: none;
+    border-color: green;
+    border-bottom: 1px dotted green;
+    color: black;
+}

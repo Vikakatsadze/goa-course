@@ -1,0 +1,9 @@
+.hover:hover{
+    color: red;
+    background-color:green;
+    font-size: 100px;
+}
+.act:active{
+    color: black;
+    font-size: 50px;
+}

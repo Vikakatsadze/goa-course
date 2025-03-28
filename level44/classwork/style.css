@@ -1,0 +1,29 @@
+body{
+    align-items: center;
+}
+main{
+    width: 1100px;
+    height: 800px;
+    border: 10px solid black;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    border: 5px solid red;
+    
+
+    font-size: 1.8em;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
+main{
+    display: flex;
+}
+
+
+.item1{
+    flex-shrink:5;
+}

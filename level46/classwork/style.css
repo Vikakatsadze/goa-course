@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Shafarik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px; 
+    background-color:aliceblue ;
+}
+.title{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-size: 2rem;
+    color: greenyellow;
+    transition: 0.5s;
+    cursor: default;
+}
+.title:hover{
+    text-shadow: 10px 10px 20px greenyellow;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 1.1rem;
+}
+nav ul li{
+    cursor: pointer;
+    transition: 0.5s;
+}
+nav ul li:hover{
+    color:rgba(169, 206, 112, 0.182);
+}
+.login{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    color: yellowgreen;
+}
+.login:hover{
+    color: rgba(169, 206, 112, 0.182);
+}
+
+
+.nav-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+}

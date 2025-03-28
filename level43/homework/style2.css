@@ -1,0 +1,12 @@
+input[type="password"]{
+    box-shadow: 20px;
+    color: red;
+    border-radius: 2px;
+    border-color: aqua;
+}
+input[type="email"]{
+    color: green;
+    border: none;
+    outline: none;
+    
+}

@@ -1,0 +1,14 @@
+.ul1{
+    list-style-type: square;
+}
+.ol1{
+    list-style-type: georgian;
+}
+.ul2{
+    list-style-type: square;
+    list-style-position: inside;
+}
+.ol2{
+    list-style-image: url("https://www.google.com/imgres?q=armenia&imgurl=https%3A%2F%2Fcdn.britannica.com%2F85%2F133085-050-FF7058E4%2FYerevan-peaks-Arm-background-Mount-Ararat.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fplace%2FArmenia&docid=sS6rv_5mnGJ5lM&tbnid=oKy9VRF5LdEgUM&vet=12ahUKEwiAk_SimP2LAxV6A9sEHY01PNcQM3oECHAQAA..i&w=800&h=492&hcb=2&ved=2ahUKEwiAk_SimP2LAxV6A9sEHY01PNcQM3oECHAQAA");
+    list-style-position: outside;
+}

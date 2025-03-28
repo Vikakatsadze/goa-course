@@ -1,0 +1,5 @@
+input[type="email"]{
+    border: none;
+    border-bottom: 1px dotted darkblue;
+    outline: none;
+}
