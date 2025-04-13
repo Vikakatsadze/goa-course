@@ -1,0 +1,22 @@
+body{
+    height:300vh;
+}
+.test{
+    width: 300px;
+    height: 600px;
+    background-color:blue;
+}
+
+.parent{
+    position: relative;
+    height: 700px;
+    border: 1px solid yellow;
+}
+
+.square{
+    position: sticky;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
