@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: 4s;
+}
+.square:hover{
+    transform: rotate(2880deg) translateX(300px) scale(0.3);
+    background-color: black;
+    border-radius: 50%;
+
+}

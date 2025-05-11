@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.papa{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    border: 7px dotted blue;
+    animation-name: rotate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+
+
+.vika{
+    position: absolute;
+    bottom: 43%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+    background-image: url("https://scontent.fkut1-1.fna.fbcdn.net/v/t1.6435-9/110304063_1389105047955871_1424705196134831475_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-JHLfebUPxAQ7kNvwHNMoOa&_nc_oc=Adn0Md2SdeP-PiZLbig3_6uOYkcvXv4HARotN1CL4ekUx6ml21As2gMXztcy-hBw3bKkGwRyikdu_BCHi9rIsg5m&_nc_zt=23&_nc_ht=scontent.fkut1-1.fna&_nc_gid=e-NlxdXl403BTuVnrBmAaw&oh=00_AfF1igSCx1N-Z2ll1_K6zXGbmuImIkQMogU5lSHLctSHqg&oe=6825A189");
+    background-size: cover;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    border-radius: 50%;
+}
+
+.mari2{
+    width: 250px;
+    height: 250px;
+    background-image: url("https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-6/480558838_2324007071300067_3866878668110485507_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=JXu-ERZOiuwQ7kNvwEqa9nR&_nc_oc=Adnu91xWJKH55B51I9VkwiFKChh6JUA5N8hEQjcR6wOpJSKb9jPSh5dYBj8CClGHJQesAWK24WLWCmaOxBn1k72L&_nc_zt=23&_nc_ht=scontent.fkut1-1.fna&_nc_gid=N3vJFas-cLRCiq15xyw95w&oh=00_AfE2hAVW_HhDy_BcZNxvPnbe3ddWYfTfGSz2yNQHFPqGNA&oe=6803F461");
+    background-size: cover;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    border-radius: 50%;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes changeColor{
+    0%{
+        transform: translateX(0, 0) rotate(180deg);
+    }
+    25%{
+        transform: translate(200px) rotate(-180deg);
+        background-color: red;
+    }
+    50%{
+        transform: translate(200px, 200px) rotate(-360deg);
+        background-color: yellow;
+    }
+    75%{
+        transform: translate(0, 200px) rotate(-540deg);
+        background-color: green;
+    }
+    100%{
+        transform: translate(0, 0) rotate(-720deg); 
+    }
+}

@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    width: 500px;
+    height: 500px;
+    transition: 2s;
+    background-image: url("https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-6/471206214_2278173572550084_1798562388396112813_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=SLPDx0c1ZzEQ7kNvwGT9mZJ&_nc_oc=Adlj3bB0W5rnkr02kjpAGQnhlImepnXMCkEDJ0Y5puUkTll__dpSlWqUuExNkcLPwV7_nlg6bNIhb4jzKolFaU2C&_nc_zt=23&_nc_ht=scontent.fkut1-1.fna&_nc_gid=j2xGcN7peuePm9IY-UY07w&oh=00_AfGdEahRmuotEpmYajBn0lZtTl4_G2ICeOdMIEMND9rNAg&oe=67FEE066");
+    animation-name: changeColor;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    background-size: cover;
+}
+
+@keyframes changeColor{
+    from{
+        background-color: blue;
+    }
+    to{
+        transform: rotate(1440deg);
+        background-color: red;
+        background-image: url("https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-6/471331071_2278173552550086_4278019523409510751_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zfRnmm4y7hAQ7kNvwH9u0Th&_nc_oc=AdlFgL9smrG8J6jytNUaBuND_-Ajbw9k_U718O0JPpHoaTQR8_Ba3eeBOguJJAGWLvdnEUle-cfQ8yWdHYnOVTW0&_nc_zt=23&_nc_ht=scontent.fkut1-1.fna&_nc_gid=Na3OUGnq1rd3dqURd2kpSQ&oh=00_AfE6HYHKgHN1AO8cR2uFXatkExJGF6KJ6wPnzpXnwBRmYg&oe=67FEEC66");
+    }
+}

@@ -1,0 +1,17 @@
+.square{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+@media (max-width: 600px){
+    .square{
+        background-color: red;
+    }
+}
+
+@media (max-width: 400px){
+    .square{
+        background-color: yellow;
+    }
+}

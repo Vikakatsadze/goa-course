@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+    background-image: url("https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-6/480631081_2321037968263644_4185331919874060215_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=hLiQIheHaLkQ7kNvwFwmIgR&_nc_oc=AdnZlSFZpItHqLvUvHnLJ7QrFUfKOCDAImOpwKr2VWqwzGx_JFoD7OIl94aMXy1LsyiFzsiwb7Wf_mdhfbOTTUih&_nc_zt=23&_nc_ht=scontent.fkut1-1.fna&_nc_gid=Je-J3eoCmsxDypCxuxqpag&oh=00_AfFlVMXgrBDqfacbnveakG_P7EE4JmSMeREJQqInw8MgmA&oe=67FED044");
+    background-size: cover;
+}
+.square:hover{
+    transform: rotateX(180deg);
+    background-color: black;
+    border-radius: 50%;
+}
+.square:active{
+    transform: rotateY(180deg);
+}

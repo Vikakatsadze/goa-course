@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transition: 2s;
+    animation-name: changeColor;
+    animation-duration: 5s;
+
+}
+
+@keyframes changeColor {
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: red;
+        transform: rotate(360deg);
+    }
+}
