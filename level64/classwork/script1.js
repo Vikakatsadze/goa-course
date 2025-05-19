@@ -1,0 +1,5 @@
+console.log("VIKA KATSADZE")
+console.log(typeof "xelou")
+console.log(typeof 50)
+console.log(typeof 22.5)
+console.log(typeof true)
