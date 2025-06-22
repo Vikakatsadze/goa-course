@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #cool{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #reset{
+        background-color: blue;
+    }
+    #plus{
+        background-color: green;
+    }
+    #but button:hover{
+        transform: scale(1.2);
+        box-shadow: 0px 0px 20px white;
+    }
+</style>
+<body>
+    <div id="cool">
+        <h1>0</h1>
+        <div id="but">
+            <button onclick="mather(-1)" id="minus">minus</button>
+            <button onclick="reset()" id="reset">reset</button>
+            <button onclick="mather(1)" id="plus">plus</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
